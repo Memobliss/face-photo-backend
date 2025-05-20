@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: face-photo-api
+    env: python
+    buildCommand: ""
+    startCommand: "gunicorn app:app"
+    envVars:
+      - key: FOLDER_ID
+        value: 1FOPpSKoXskMtaruRYL6lmhZWZe6ODxaH
+      - key: API_KEY
+        value: AIzaSyCkU3h-8tEohmYMKSbdDa9jl7a39MYSkrQ

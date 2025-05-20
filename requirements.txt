@@ -1,0 +1,6 @@
+flask
+face_recognition
+requests
+google-api-python-client
+pillow
+gunicorn
